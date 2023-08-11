@@ -6,8 +6,8 @@ from flask_migrate import Migrate
 
 app = Flask(__name__)
 app.config.from_object(Config)
-
 app.register_blueprint(session.bp)
+
 db.init_app(app)
 migrate = Migrate(app, db)
 

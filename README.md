@@ -21,6 +21,9 @@ Flask Login
 ### Installing packages
 pipenv install flask flask_sqlalchemy sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator jinja2 python-dotenv alembic Flask-Migrate
 
+### Initializing alembic directory
+pipenv run alembic init alembic
+
 ### Initialize database and migration files
 pipenv run flask db init
 
