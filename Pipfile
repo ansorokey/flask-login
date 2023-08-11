@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+flask-login = "*"
+flask-bcrypt = "*"
+flask-wtf = "*"
+wtforms = "*"
+email-validator = "*"
+jinja2 = "*"
+python-dotenv = "*"
+sqlalchemy = "*"
+alembic = "*"
+flask-migrate = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
