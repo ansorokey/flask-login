@@ -9,9 +9,17 @@ Original tutorial can be found [here](https://youtu.be/71EU8gnZqZQ).
 
 ## Relevant Documentation
 [Flask Login](https://flask-login.readthedocs.io/en/latest/)
+
 [Form Fields]()
 
 ## Packages Used
+Flask
+Flask SQLAlchemy
+Flask Login
 
 ## Terminal Commands
-pipenv install Flask 
+### Installing packages 
+pipenv install flask flask_sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator jinja2
+
+### Running application
+pipenv run flask run
