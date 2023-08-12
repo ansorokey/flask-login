@@ -19,16 +19,14 @@ Flask Login
 
 ## Terminal Commands
 ### Installing packages
-pipenv install flask flask_sqlalchemy sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator jinja2 python-dotenv alembic Flask-Migrate
-
-### Initializing alembic directory
-pipenv run alembic init alembic
+pipenv install flask flask_sqlalchemy sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator jinja2 python-dotenv alembic Flask-Migrate werkzeug
+DIDNT USE BCRYPT
 
 ### Initialize database and migration files
 pipenv run flask db init
 
 ### Migrate database
-pipenv run flask db migrate -m "create packages table"
+pipenv run flask db migrate -m "create users table"
 pipenv run flask db upgrade
 
 ### Running application

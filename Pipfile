@@ -16,6 +16,7 @@ python-dotenv = "*"
 sqlalchemy = "*"
 alembic = "*"
 flask-migrate = "*"
+werkzeug = "*"
 
 [dev-packages]
 

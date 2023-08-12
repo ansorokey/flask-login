@@ -9,7 +9,7 @@ class User(db.Model, UserMixin):
   id = db.Column(db.Integer, primary_key=True)
   firstname = db.Column(db.String(255), nullable=False)
   lastname = db.Column(db.String(255), nullable=False)
-  username = db.Column(db.String(255), nullable=False)
+  username = db.Column(db.String(255), nullable=False, unique=True)
   password = db.Column(db.String(255), nullable=False)
 
   # The flask_sqlalchemy package comes with many time savings dependancies that would otherwise be their own imports
