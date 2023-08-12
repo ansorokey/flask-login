@@ -3,7 +3,7 @@
 {% block main %}
 
 <h1>Log In</h1>
-<form action="/session" method="POST">
+<form action="/session/login" method="POST">
   {{ form.csrf_token }}
   <div>
     {{ form.username.label }}
